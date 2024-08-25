@@ -1,0 +1,34 @@
+.projects-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.projects-button {
+    background-color: grey;
+    border: solid 3px whitesmoke;
+    width: 90%;
+    height: 45px;
+    border-radius: 15px;
+    margin: 0px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.projects-link {
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.projects-button:hover {
+    background-color: whitesmoke;
+    border-color: grey;
+}
+
+.projects-button:hover .projects-link {
+    color: grey;
+}
